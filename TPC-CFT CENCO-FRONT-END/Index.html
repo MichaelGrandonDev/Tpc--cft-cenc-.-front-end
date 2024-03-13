@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Trabajo colaborativo CENCO</title> 
+</head>
+
+<body>
+    <div class="head">
+        <div class="logo">
+            <a href="#">logo</a>
+        </div>
+
+        <nav class="navbar">
+            <a href="#">Quienes somos</a>
+            <a href="#">Contacto</a>
+        </nav>
+    </div>
+
+    <section class="content sau">
+         <h2 class="title">Quienes somos</h2>
+         Expandimos la presencia de las empresas a nivel internacional aprovechando las plataformas digitales para llegar a audiencias en todo el mundo. Mejorar la experiencia del cliente a través de plataformas digitales, ofreciendo servicios personalizados, atención al cliente 24/7 y procesos de compra simplificados.</p>
+
+    </section>
+
+    <section class="content sau">
+        <h2 class="title">Contacto</h2>
+        <p>telefono= +569 95122742</p>
+        <p>consultas@casaestudios.com</p>
+   </section>
+    
+   <div class="formulario">            
+    <h2>Formulario de contacto</h2>
+              <h3>Escríbenos y en breve los pondremos en contacto contigo</h3>
+  
+                  <form action="submeter-formulario.php" method="post">               
+  
+                      
+                              <p>
+                                  <label for="nombre" class="colocar_nombre">Nombre
+                                      <span class="obligatorio">*</span>
+                                  </label>
+                                      <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
+                              </p>
+                          
+                              <p>
+                                  <label for="email" class="colocar_email">Email
+                                      <span class="obligatorio">*</span>
+                                  </label>
+                                      <input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email">
+                              </p>
+                      
+                              
+                              <p>
+                                  <label for="mensaje" class="colocar_mensaje">Mensaje
+                                      <span class="obligatorio">*</span>
+                                  </label>                     
+                                       <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 
+                                 </p>                                 
+                          
+                              <button type="submit" name="enviar_formulario" id="enviar"><p>Enviar</p></button>
+  
+                              <p class="aviso">
+                                  <span class="obligatorio"> * </span>los campos son obligatorios.
+                              </p>                    
+                      
+                  </form>
+      </div>  
+  </div>
+      <a href="http://www.casaestudios.com/">Casa estudios Oficial</a>
+      
+
+</body>
+</html>
